@@ -48,7 +48,6 @@ gallery-finish:
   - url: /assets/images/idiophone/finish-3.jpg
     image_path: assets/images/idiophone/finish-3-th.jpg
 ---
-
 An idiophone is a musical instrument that produces sound when struck. The idiophonic plaque includes a bronze bell, brass tone bar, stainless steel chime, and delrin striker attached to a wood base.
 Through this project, I familiarized myself with common manufacturing/fabrication processes and with reading 2D engineering drawings.
 

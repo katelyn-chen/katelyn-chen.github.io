@@ -1,17 +1,17 @@
 ---
 layout: single
 title: "Shape Optimized Hanging Bedside Shelf"
-excerpt: "Skills: FEA, CAD, 3D Printing"
+excerpt: "Skills: FEA, CAD, 3D Printing (FDM)"
 header:
-  image: /assets/images/shelf/float-title-2.png
-  teaser: assets/images/shelf/float-title-2.png
+  image: /assets/images/shelf/shelf-title.png
+  teaser: assets/images/shelf/shelf-title.png
 sidebar:
   - title: "Role"
     # image: http://placehold.it/350x250
     # image_alt: "logo"
     text: "Individual project"
   - title: "Responsibilities"
-    text: "Design, prototype, conduct similuations, and print the final product"
+    text: "Design, prototype, conduct simulations, and print the final product"
   - title: "Skills"
     text: "Finite Element Analysis (FEA), CAD, algorithmic design, 3D printing"
 # gallery-machine:
@@ -24,11 +24,9 @@ sidebar:
 #   - url: /assets/images/sandcasting-4.jpg
 #     image_path: assets/images/sandcasting-4-th.jpg
 ---
-
 The goal of the project was to use algorithmic modeling tools to design a part unique to additive manufacturing that optimizes for weight without sacrificing performance.
 
 ![Final](/assets/images/shelf/demo.png){:width="800"}
-
 
 ## Ideation and Concept Sketches
 * Mechanical Function: Hang over a surface and support weight without breaking

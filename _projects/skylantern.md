@@ -1,10 +1,10 @@
 ---
 layout: single
 title: "Taiwanese Sky Lantern"
-excerpt: "Skills: Welding, machining (mill), sand casting, woodworking, CAD, 3D printing"
+excerpt: "Skills: Welding, machining (mill), sand casting, woodworking, CAD, 3D printing (FDM)"
 header:
-  image: /assets/images/sky-lantern/skylantern-title.jpg
-  teaser: assets/images/sky-lantern/skylantern-title.jpg
+  image: /assets/images/sky-lantern/skylantern-title2.png
+  teaser: assets/images/sky-lantern/skylantern-title2.png
 sidebar:
   - title: "Role"
     # image: http://placehold.it/350x250
@@ -31,21 +31,20 @@ gallery-mill:
   # - url: /assets/images/mill-1.jpg # 1600 x 1068
   #   image_path: assets/images/mill-1-th.jpg # 600 x 400
   - url: /assets/images/sky-lantern/mill-2.jpg
-    image_path: assets/sky-lantern/images/mill-2-th.jpg
+    image_path: assets/images/sky-lantern/mill-2-th.jpg
   - url: /assets/images/sky-lantern/mill-3.jpg
-    image_path: assets/sky-lantern/images/mill-3-th.jpg
+    image_path: assets/images/sky-lantern/mill-3-th.jpg
   - url: /assets/images/sky-lantern/mill-4.jpg
     image_path: assets/images/sky-lantern/mill-4-th.jpg
 
 gallery-weld:
   - url: /assets/images/sky-lantern/welding-1.jpg # 1600 x 1068
-    image_path: assets/sky-lantern/images/welding-1-th.jpg # 600 x 400
+    image_path: assets/images/sky-lantern/welding-1-th.jpg # 600 x 400
   - url: /assets/images/sky-lantern/welding-2.jpg
     image_path: assets/images/sky-lantern/welding-2-th.jpg
   - url: /assets/images/sky-lantern/welding-3.jpg
     image_path: assets/images/sky-lantern/welding-3-th.jpg
 ---
-
 I designed and created from scratch a Taiwanese sky lantern inspired night light. I learned and executed machine shop skills such as machining, woodworking, welding, and sandcasting.
 
 ![Hero Shot](/assets/images/sky-lantern/skylantern-hero.jpg){:width="800"}
