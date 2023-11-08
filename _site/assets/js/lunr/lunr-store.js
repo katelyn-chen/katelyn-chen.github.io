@@ -15,7 +15,7 @@ var store = [{
         "excerpt":"Design Goals Design a device for those with limited mobility to grab items outside their reach. The device must be able to pick up a playing card without damage and a dime on a tile floor. User Requirements Potential users are those who cannot physically reach down and those with...","categories": [],
         "tags": [],
         "url": "/projects/grabbertool/",
-        "teaser": "/assets/images/grabbertool/prototype.jpg"
+        "teaser": "/assets/images/grabbertool/prototype.JPG"
       },{
         "title": "Idiophonic Plaque",
         "excerpt":"An idiophone is a musical instrument that produces sound when struck. The idiophonic plaque includes a bronze bell, brass tone bar, stainless steel chime, and delrin striker attached to a wood base. Through this project, I familiarized myself with common manufacturing/fabrication processes and with reading 2D engineering drawings. Your browser...","categories": [],

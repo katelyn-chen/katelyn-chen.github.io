@@ -6,7 +6,7 @@ classes: wide
 layout: single
 title: "Undergraduate Research"
 header:
-  image: /assets/images/armlab/armlab-group-2.jpg
+  image: /assets/images/armlab/armlab-group-2.JPG
 gallery-suri:
   - url: /assets/images/armlab/suri-1.jpg # 1600 x 1068
     image_path: assets/images/armlab/suri-1-th.jpg # 600 x 400

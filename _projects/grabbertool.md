@@ -3,8 +3,8 @@ layout: single
 title: "Design and Prototyping: Assistive Grabber Tool"
 excerpt: "Skills: CAD, User Analysis, Prototyping"
 header:
-  image: /assets/images/grabbertool/prototype.jpg
-  teaser: assets/images/grabbertool/prototype.jpg
+  image: /assets/images/grabbertool/prototype.JPG
+  teaser: assets/images/grabbertool/prototype.JPG
 sidebar:
   - title: "Role"
     text: "Individual project"
