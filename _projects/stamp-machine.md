@@ -77,5 +77,9 @@ CAD Assembly:
 ![CAD Assembly](/assets/images/stamp/assembly-iso.png){:width="800"}
 {% include gallery id="gallery-cad" %}
 
+Operation Instructions:
+![Intructions](/assets/images/stamp/instructions.pdf){:width="800"}
+
+
 Bill of Materials:
 ![BOM](/assets/images/stamp/BOM.jpg){:width="800"}

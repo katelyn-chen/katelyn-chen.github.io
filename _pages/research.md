@@ -1,26 +1,42 @@
 ---
-title: Research
 permalink: /research/
 entries_layout: grid
 classes: wide
 
 layout: single
 title: "Undergraduate Research"
+header:
+  image: /assets/images/armlab/armlab-group-2.jpg
+gallery-suri:
+  - url: /assets/images/armlab/suri-1.jpg # 1600 x 1068
+    image_path: assets/images/armlab/suri-1-th.jpg # 600 x 400
+  - url: /assets/images/armlab/suri-2.jpg
+    image_path: assets/images/armlab/suri-2-th.jpg
+  - url: /assets/images/armlab/suri-3.jpg
+    image_path: /assets/images/armlab/suri-3-th.jpg
+
+gallery-wutsai:
+  - url: /assets/images/armlab/wutsai-1.jpg # 1600 x 1068
+    image_path: assets/images/armlab/wutsai-1-th.jpg # 600 x 400
+  - url: /assets/images/armlab/wutsai-2.jpg
+    image_path: assets/images/armlab/wutsai-2-th.jpg
+  - url: /assets/images/armlab/wutsai-3.jpg
+    image_path: /assets/images/armlab/wutsai-3-th.jpg
 ---
 ## Stanford Assistive Robotics and Manipulation Laboratory (ARMLab)
 **Trajectory and Sway Prediction for Fall Prevention**
 
-Research Purpose:
+**Research Goals:**
 *  "Develop a wearable sensor that can predict a person's path and their stability over the expected path, alerting them if there is a significant possibility they may fall or become unstable" ([Project Overview](https://arm.stanford.edu/research/smart-belt-human-motion-prediction-and-fall-prevention-wearable-sensor))
 * Led by Monroe Kennedy III (PI) and Ken Wang (PhD researcher) in the [ARMLab](https://arm.stanford.edu)
 
-My Role:
-* Selected to participate in the 2023 Stanford Undergraduate Research Institute for Mechanical Engineering as 1/32 undegraduate students for a 10 week research internship
+**My Role:**
+* Selected to participate in the Department of Mechanical Engineering 2023 Stanford Undergraduate Research Institute (SURI) as 1/32 undegraduate students for a 10 week research internship
 * Continuing to work in the ARMLab during the school year! 
 
-![ARMLab Group Photo](/assets/images/armlab/armlab-group.jpg){:width="800"}
+<!-- ![ARMLab Group Photo](/assets/images/armlab/armlab-group-2.jpg){:width="800"} -->
 
-My Work:
+**My Work:**
 * Developed an iOS application in Swift (programming language) that leverages the LiDAR sensor in iPhones to collect environment data and generate a depth panorama 
 * Application demo (below) shows the generation of the depth panorama in real time as a person walks down a hallway. The FPS on the screen needs to be multiplied by the number of GPUs (6 for the iPhone 12 Pro that the testing was conducted on)
 
@@ -30,6 +46,16 @@ My Work:
 * Currently working on deploying the PyTorch model in the iPhone and designing an ergonomic/aesthetically pleasing phone harness
 
 ![Research Poster](/assets/images/armlab/SURI_Poster.pdf){:width="800"}
+
+**Research Presentations:**
+
+* **SURI Poster Session, August 2023**: Presented summer research progress to Stanford mechanical engineering labs and the SURI cohort 
+
+{% include gallery id="gallery-suri" %}
+
+* **Innovation and Discovery Expo, October 2023**: Presented to biosciences, engineering, and medical researchers as part of the ARMLab demonstrational booth. The expo was hosted by Stanford Bio-X and Wu Tsai Human Performance Alliance.
+
+{% include gallery id="gallery-wutsai" %}
 
 <!-- 
 ---
