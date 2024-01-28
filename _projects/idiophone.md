@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Idiophonic Plaque"
-excerpt: "Skills: Machining (mill, lathe), sand casting, woodworking, sheet metal forming, finishing"
+excerpt: "Skills: Machining (Lathe, Mill), Sand Casting, Sheet Metal Forming, Surface Finishing, Woodworking"
 header:
   image: /assets/images/idiophone/final.jpg
   teaser: assets/images/idiophone/final.jpg
@@ -13,7 +13,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Manufacture the product from start to finish"
   - title: "Skills"
-    text: "Machining (mill, lathe), sand casting, woodworking, sheet metal forming, finishing (bead blasting etc.)"
+    text: "Machining (Lathe, Mill), Sand Casting, Sheet Metal Forming, Surface Finishing, Woodworking"
 gallery-machine:
   - url: /assets/images/idiophone/machine-1.jpg # 1600 x 1068
     image_path: assets/images/idiophone/machine-1-th.jpg # 600 x 400

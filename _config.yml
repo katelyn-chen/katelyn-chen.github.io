@@ -98,14 +98,14 @@ social:
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : 
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Katelyn E. Chen"
-  avatar           : "/assets/images/headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/headshot-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "B.S. Mechanical Engineering at Stanford University"
   location         : "Stanford, CA"
   email            : "katelync@stanford.edu"

@@ -31,7 +31,7 @@ gallery-wutsai:
 * Led by Monroe Kennedy III (PI) and Ken Wang (PhD researcher) in the [ARMLab](https://arm.stanford.edu)
 
 **My Role:**
-* Selected to participate in the Department of Mechanical Engineering 2023 Stanford Undergraduate Research Institute (SURI) as 1/32 undegraduate students for a 10 week research internship
+* Selected to participate in the Department of Mechanical Engineering 2023 Stanford Undergraduate Research Institute (SURI) as 1/30 undegraduate students for a 10 week research internship
 * Continuing to work in the ARMLab during the school year! 
 
 <!-- ![ARMLab Group Photo](/assets/images/armlab/armlab-group-2.jpg){:width="800"} -->

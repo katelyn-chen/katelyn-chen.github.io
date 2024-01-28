@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Art Book Object: Bookbinding",
+        "excerpt":"In ARTSTUDI 147: Art Book Object, I learned bookbinding techniques including how to make accordian books, hand sewn signatures, and hard bound books. Every book was made from scratch! Hard Bound Book: The Evolution of Typography The content of this book outlines the evolution of typography for both serif and...","categories": [],
+        "tags": [],
+        "url": "/fun/bookbinding/",
+        "teaser": "/assets/images/bookbinding/acc-book2.jpg"
+      },{
         "title": "Nature Photography",
         "excerpt":"My interest in nature photography started with a course I took with Professor Robert (Bob) Siegel and the multiple class trips we took!                                                                                                                                                                             Photography highlights:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                See more photos on iNaturalist (@katelyn0919)  ","categories": [],
         "tags": [],
@@ -10,12 +16,6 @@ var store = [{
         "tags": [],
         "url": "/projects/appliedmaterialcar/",
         "teaser": "/assets/images/matcar/title.png"
-      },{
-        "title": "Design and Prototyping: Assistive Grabber Tool",
-        "excerpt":"Design Goals Design a device for those with limited mobility to grab items outside their reach. The device must be able to pick up a playing card without damage and a dime on a tile floor. User Requirements Potential users are those who cannot physically reach down and those with...","categories": [],
-        "tags": [],
-        "url": "/projects/grabbertool/",
-        "teaser": "/assets/images/grabbertool/prototype.JPG"
       },{
         "title": "Idiophonic Plaque",
         "excerpt":"An idiophone is a musical instrument that produces sound when struck. The idiophonic plaque includes a bronze bell, brass tone bar, stainless steel chime, and delrin striker attached to a wood base. Through this project, I familiarized myself with common manufacturing/fabrication processes and with reading 2D engineering drawings. Your browser...","categories": [],

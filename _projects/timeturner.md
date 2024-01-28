@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Time Turner: Print-in-Place Exploration"
-excerpt: "Skills: CAD, 3D Printing (FDM), prototyping"
+excerpt: "Skills: 3D Printing (FDM), CAD"
 header:
   image: /assets/images/timeturner/timeturner.png
   teaser: assets/images/timeturner/timeturner.png
@@ -13,7 +13,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Design, prototype, and print the final product"
   - title: "Skills"
-    text: "CAD, 3D printing (FDM), prototyping"
+    text: "3D printing (FDM), CAD"
 ---
 ## Challenge
 Experiment with print-in-place joints to create assemblies unique to additive manufacturing.

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: single
 title: "Design and Prototyping: Assistive Grabber Tool"
 excerpt: "Skills: CAD, User Analysis, Prototyping"
@@ -29,4 +29,4 @@ Potential users are those who cannot physically reach down and those with limite
 
 ## Final Poster with Force Analysis
 
-![Poster](/assets/images/grabbertool/me1-poster.pdf){:width="800"}
+![Poster](/assets/images/grabbertool/me1-poster.pdf){:width="800"} -->

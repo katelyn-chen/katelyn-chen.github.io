@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Self-Propelling Carriage: Applied Materials Exploration"
-excerpt: "Skills: FEA, CAD, 3D Printing (SLA, FDM), laser cutting, prototyping"
+excerpt: "Skills: 3D Printing (FDM, SLA), CAD, FEA, Laser Cutting"
 header:
   image: /assets/images/matcar/title.png
   teaser: assets/images/matcar/title.png
@@ -15,7 +15,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Design, prototype, conduct simulations, and print the final product"
   - title: "Skills"
-    text: "FEA, CAD, 3D printing (SLA, FDM), laser cutting, prototyping"
+    text: "3D Printing (FDM, SLA), CAD, FEA, Laser Cutting"
 
 gallery:
   - url: /assets/images/matcar/slicer1.png # 1600 x 1068
