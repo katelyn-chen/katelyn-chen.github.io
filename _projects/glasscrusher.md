@@ -1,10 +1,10 @@
-<!-- ---
+---
 layout: single
 title: "Glass-to-Sand Crusher"
 excerpt: "Skills: 3D printing (FDM), CAD, laser cutting, prototyping"
 header:
-  image: /assets/images/grabbertool/prototype.jpg
-  teaser: assets/images/grabbertool/prototype.jpg
+  image: /assets/images/glasscrusher/crusher.JPG
+  teaser: assets/images/glasscrusher/crusher.JPG
 sidebar:
   - title: "Role"
     text: "Team Lead"
@@ -15,19 +15,35 @@ sidebar:
   - title: "Skills"
     text: "3D printing (FDM), CAD, laser cutting, prototyping"
 
+gallery:
+  - url: /assets/images/glasscrusher/group.jpg # 1600 x 1068
+    image_path: assets/images/glasscrusher/group-2.jpg # 600 x 400
+    alt: "Group prototyping session"
+  - url: /assets/images/glasscrusher/prototypes.jpg
+    image_path: assets/images/glasscrusher/prototypes-2.jpg
+    alt: "Foamcore preliminary prototypes"
+  - url: /assets/images/glasscrusher/3dprot.jpg
+    image_path: assets/images/glasscrusher/3dprot-2.jpg
+    alt: "First 3D printed prototype"
+
 ---
-## Project Overview
-This project aimed to design a two-part glass crushing mechanism intended for crushing recycled glass bottles into a fine sand to be later repurposed for construction bricks. The project is for the Maa Trust in the Maasai Mara region, who aims to use the machine to create jobs and empower youth within the Mara. 
+## Challenge
+* Design a two-part glass crushing mechanism to crushing recycled glass bottles into fine sand for repurposing into bricks or beads 
+* 6 month collaborative project between the Maa Trust and Engineers for the Sustainable World (ESW)
+  * Intended to create jobs and empower youth in the Maasai Mara region
 
-## Ideation and Prototyping
-The first design involves a crank slider mechanism with a mathematical analysis into the viability of a bicycle powered system. The second design is an impact mill design using chains and powered by a diesel motor. The report includes our thought process, ideation and prototyping phase, as well as the design results and conclusions for future use of our product. Our conclusion was that the optimal design for a glass crusher that fits the Maa Trust’s requirements (durable, portable, repairable) was a two-part mechanism that first uses a crank slider to break the bottle into smaller parts before being grinded by the impact mill. Our conclusion also includes force analyses and power requirements. Having worked with the Maa Trust for two quarters, we’ve developed a strong relationship with the community and hope that our product and design can benefit future groups that continue on with this project. 
+## Action
+* Designed around user requirements, such as:
+  * Materials widely available in the Maasai Mara
+  * Powered only by diesel or solar power
+  * Portable for use in different villages
+  * Easily repairable for non-technically trained operators
+* Conducted extensive research and interviews with locals in the Maasai Mara to validate the design
+* Integrated a crank-and-slider with an impact mill to serve as primary and secondary crushing mechanisms respectively
+{% include gallery %}
 
-## User Requirements
-Potential users are those who cannot physically reach down and those with limited range/mobility. Design considerations include:
-* Lower required force to actuate the grasping mechanism 
-* Light-weight and compact for everyday use and transportation 
-* Long enough to reach over the constraints of any mobility aids
+## Result
+* Focused on developing the impact mill and created a reduced-scale 3D printable model that could be replicated by the partner organizations in Kenya
+* Validated the design through crushing potato chips and successfully crushed full chips into sand-like particles
 
-## Final Poster
-
-![Poster](/assets/images/glasscrusher/finalposter.pdf){:width="800"} -->
+![Poster](/assets/images/glasscrusher/finalposter.pdf){:width="800"}

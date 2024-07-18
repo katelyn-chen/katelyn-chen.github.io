@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Fun"
-    url: /fun/
-  - title: "Projects"
+  - title: "Personal Projects"
+    url: /personal/
+  - title: "Academic Projects"
     url: /projects/
   - title: "Research"
     url: /research/

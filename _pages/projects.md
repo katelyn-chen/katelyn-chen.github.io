@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Academic Projects
 layout: collection
 permalink: /projects/
 collection: projects

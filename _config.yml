@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Katelyn E. Chen"
   avatar           : "/assets/images/headshot-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "B.S. Mechanical Engineering at Stanford University"
+  bio              : "B.S. & M.S. Mechanical Engineering at Stanford University"
   location         : "Stanford, CA"
   email            : "katelync@stanford.edu"
   links:
@@ -266,7 +266,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  fun:
+  personal:
     output: true
     permalink: /:collection/:path/
 
