@@ -26,15 +26,25 @@ gallery-final:
     image_path: assets/images/reframe/odyssey-2.jpg
     alt: "Odyssey tree"
 
+gallery-presentation:
+  - url: /assets/images/reframe/dc-group.jpg # 1600 x 1068
+    image_path: assets/images/reframe/dc-group-2.jpg # 600 x 400
+    alt: "Group photo"
+  - url: /assets/images/reframe/dc-present.jpg
+    image_path: assets/images/reframe/dc-present-2.jpg
+    alt: "Presentation"
+
 ---
 * Development of a physical toolkit to apply the Stanford Life Design process to the transition from education to career
+* Worked in conjunction with the Stanford Life Design Lab as a researcher with user testing conducted with the Life Design fellows
+* Product developed up to the prototyping phase (refined prototype shown in header and below)
+{% include gallery id="gallery-final" %}
+
+**Stanford Center for Longevity Design Challenge**
 * Selected as a Finalist for the Stanford Center of Longevity Design Challenge 2024
   * Top 8 out of 228 submissions from 34 countries
   * Invited to present design to a panel of business executives [(Finalist presentation recording)](https://vimeo.com/935740110)
-* Currently in the prototyping phase (refined prototype shown in header and below)
-{% include gallery id="gallery-final" %}
-
-
+{% include gallery id="gallery-presentation" %}
 
 <!-- ![](/assets/images/sky-lantern/skylantern-hero.jpg){:width="800"} -->
 

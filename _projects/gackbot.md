@@ -11,7 +11,7 @@ sidebar:
   - title: "Team Members"
     text: "Ahmed Muhammad, Carlos Diaz, Gus Robinson"
   - title: "Responsibilities"
-    text: "Chassis mechanical design, ball drop mechanical and electrical design"
+    text: "Mechanical design, electrical design, code"
   - title: "Skills"
     text: "3D Printing (FDM), CAD, Circuit Design, Coding, Laser Cutting"
 ---

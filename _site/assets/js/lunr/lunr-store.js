@@ -12,7 +12,7 @@ var store = [{
         "teaser": "/assets/images/photography/nuthatch.jpg"
       },{
         "title": "Reframe",
-        "excerpt":"Development of a physical toolkit to apply the Stanford Life Design process to the transition from education to career Selected as a Finalist for the Stanford Center of Longevity Design Challenge 2024 Top 8 out of 228 submissions from 34 countries Invited to present design to a panel of business...","categories": [],
+        "excerpt":"Development of a physical toolkit to apply the Stanford Life Design process to the transition from education to career Worked in conjunction with the Stanford Life Design Lab as a researcher with user testing conducted with the Life Design fellows Product developed up to the prototyping phase (refined prototype shown...","categories": [],
         "tags": [],
         "url": "/personal/reframe/",
         "teaser": "/assets/images/reframe/reframe-cover.jpeg"
