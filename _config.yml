@@ -266,7 +266,10 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  personal:
+  # personal:
+  #   output: true
+  #   permalink: /:collection/:path/
+  research:
     output: true
     permalink: /:collection/:path/
 

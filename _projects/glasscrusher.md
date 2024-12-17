@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Glass-to-Sand Crusher"
-excerpt: "Skills: 3D printing (FDM), CAD, laser cutting, prototyping"
+excerpt: "Skills: 3D printing (FDM), CAD, Laser Cutting"
 header:
   image: /assets/images/glasscrusher/crusher.JPG
   teaser: assets/images/glasscrusher/crusher.JPG
@@ -13,7 +13,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Lead team in design and prototype of the glass crusher, communicate with partner organization and collaborators in Kenya"
   - title: "Skills"
-    text: "3D printing (FDM), CAD, laser cutting, prototyping"
+    text: "3D printing (FDM), CAD, Laser Cutting"
 
 gallery:
   - url: /assets/images/glasscrusher/group.jpg # 1600 x 1068
