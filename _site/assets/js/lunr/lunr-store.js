@@ -20,7 +20,7 @@ var store = [{
         "title": "Mass-Optimized Lever-Lifting Transmission",
         "excerpt":"Challenge Design a lightweight, efficient transmission to lift a 10kg weight on a lever by 10 cm using a maximum vertical mass drop of 2m. Minimize system mass and mass drop while maintaining structural integrity and mechanical efficiency Action Transmission Design: Developed a two-stage gear system with two capstans to...","categories": [],
         "tags": [],
-        "url": "/projects/03-me104-2/",
+        "url": "/projects/03-me104/",
         "teaser": "/assets/images/me104/104-final.png"
       },{
         "title": "Reframe: Life Transitions Design Kit",
