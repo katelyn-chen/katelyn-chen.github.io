@@ -19,7 +19,7 @@ gallery-accordian:
 In ARTSTUDI 147: Art Book Object, I learned bookbinding techniques including how to make accordian books, hand sewn signatures, and hard bound books. Every book was made from scratch!
 
 ## Hard Bound Book: *The Evolution of Typography*
-The content of this book outlines the evolution of typography for both serif and sans serif fonts. Each page was meticulously researched, created in InDesign, printed out (single sided and glued together), and sewn together.
+The content of this book outlines the evolution of typography for both serif and sans serif fonts. Each page was meticulously researched, designed in Adobe InDesign, printed out (single sided and glued together), and sewn together.
 
 ![Typography Book Cover](/assets/images/bookbinding/typo-book1.jpg){:width="300"}
 ![Typography Book Open](/assets/images/bookbinding/typo-book2.jpg){:width="300"}
@@ -27,7 +27,7 @@ The content of this book outlines the evolution of typography for both serif and
 <iframe src="https://drive.google.com/file/d/1tcsfcHUtAACKXQt9owjAkWbNMxzI8Jne/preview" width="600" height="600"></iframe>
 
 ## Accordian Book: *invisible string*
-The accordian book features lyrics from *invisible string* by Taylor Swift. It is made entirely out of upcycled materials from our daily lives:
+The accordian book features lyrics from *invisible string* by Taylor Swift. It is made entirely out of upcycled materials from our daily lives to capture connections during the pandemic:
 * The front and back covers are made from the instructional booklet of a COVID-19 test kit
 * The wool is repurposed from the packaging of a vitamin bottle
 * The sharp edge of a plastic knife leftover from a disposable utensils package was used as the paintbrush to write all the text 

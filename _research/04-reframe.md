@@ -57,4 +57,4 @@ gallery-presentation:
 {% include gallery id="gallery-presentation" %}
 * Product development currently on hold but have initiated talks with the Life Design Lab on product integration into the Stanford life design curriculum or release on the market
 
-https://longevity.stanford.edu/design-challenge/stanford-center-on-longevity-design-challenge-finals-2024/
+<!-- https://longevity.stanford.edu/design-challenge/stanford-center-on-longevity-design-challenge-finals-2024/ -->

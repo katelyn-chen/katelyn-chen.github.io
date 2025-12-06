@@ -5,17 +5,17 @@ var store = [{
         "url": "/projects/01-volkswagen/",
         "teaser": "/assets/images/volkswagen/170-solution.png"
       },{
-        "title": "GACK-Bot",
+        "title": "The Plague's Gaze: Mechatronic Arcade Game",
+        "excerpt":"We developed “The Plague’s Gaze”, a mechatronic arcade game where players must avoid being caught by the plague doctor and reach the end of the track. The game features mechanical components, sensors, and a PIC32 to create an interactive experience. We designed the complete game from scratch, including the SPI...","categories": [],
+        "tags": [],
+        "url": "/projects/02-218a/",
+        "teaser": "/assets/images/me218a.jpeg"
+      },{
+        "title": "Obstacle Course Navigation Robot",
         "excerpt":"View project documentation here!        ","categories": [],
         "tags": [],
         "url": "/projects/02-gackbot/",
         "teaser": "/assets/images/gackbot-header.png"
-      },{
-        "title": "Trajectory and Sway Prediction for Fall Prevention",
-        "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
-        "tags": [],
-        "url": "/projects/03-armlab/",
-        "teaser": "/assets/images/armlab/smartbelt.pdf"
       },{
         "title": "Mass-Optimized Lever-Lifting Transmission",
         "excerpt":"Challenge Design a lightweight, efficient transmission to lift a 10kg weight on a lever by 10 cm using a maximum vertical mass drop of 2m. Minimize system mass and mass drop while maintaining structural integrity and mechanical efficiency Action Transmission Design: Developed a two-stage gear system with two capstans to...","categories": [],
@@ -70,4 +70,34 @@ var store = [{
         "tags": [],
         "url": "/projects/10-timeturner/",
         "teaser": "/assets/images/timeturner/timeturner.png"
-      },]
+      },{
+        "title": "Art Book Object: Bookbinding",
+        "excerpt":"In ARTSTUDI 147: Art Book Object, I learned bookbinding techniques including how to make accordian books, hand sewn signatures, and hard bound books. Every book was made from scratch! Hard Bound Book: The Evolution of Typography The content of this book outlines the evolution of typography for both serif and...","categories": [],
+        "tags": [],
+        "url": "/projects/11-bookbinding/",
+        "teaser": "/assets/images/bookbinding/acc-book2.jpg"
+      },{
+        "title": "Trajectory and Sway Prediction for Fall Prevention",
+        "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
+        "tags": [],
+        "url": "/research/01-armlab-app/",
+        "teaser": "/assets/images/armlab/smartbelt.pdf"
+      },{
+        "title": "Trajectory and Sway Prediction for Fall Prevention",
+        "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
+        "tags": [],
+        "url": "/research/02-armlab-manip/",
+        "teaser": "/assets/images/armlab/smartbelt.pdf"
+      },{
+        "title": "Trajectory and Sway Prediction for Fall Prevention",
+        "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
+        "tags": [],
+        "url": "/research/03-salisbury/",
+        "teaser": "/assets/images/armlab/smartbelt.pdf"
+      },{
+        "title": "Reframe: Life Transitions Design Kit",
+        "excerpt":"Challenge Development of a physical toolkit to apply the Stanford Life Design process to the transition from education to career Aiming to increase the accessibility and reach of the life design process beyond Stanford Pitched product to the Stanford Life Design Lab and was invited to join as an undergraduate...","categories": [],
+        "tags": [],
+        "url": "/research/04-reframe/",
+        "teaser": "/assets/images/reframe/reframe-front.pdf"
+      }]

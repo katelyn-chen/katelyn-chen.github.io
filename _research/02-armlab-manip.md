@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: single
 classes: wide
 title: "Trajectory and Sway Prediction for Fall Prevention"
@@ -60,4 +60,4 @@ gallery-wutsai:
 * **Innovation and Discovery Expo, October 2023**: Presented to biosciences, engineering, and medical researchers as part of the ARMLab demonstrational booth. The expo was hosted by Stanford Bio-X and Wu Tsai Human Performance Alliance.
   {% include gallery id="gallery-wutsai" %}
 
-![Research Poster](/assets/images/armlab/SURI_Poster.pdf){:width="800"} -->
+![Research Poster](/assets/images/armlab/SURI_Poster.pdf){:width="800"}

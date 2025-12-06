@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "GACK-Bot"
+title: "Obstacle Course Navigation Robot"
 excerpt: "Skills: 3D Printing (FDM), CAD, Circuit Design, Coding, Laser Cutting"
 header:
   image: /assets/images/gackbot-header.png

@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Idiophonic Plaque - Katelyn E. Chen</title>
-<meta name="description" content="Skills: Machining (Lathe, Mill), Sand Casting, Sheet Metal Forming, Surface Finishing, Woodworking">
+<!-- begin _includes/seo.html --><title>Trajectory and Sway Prediction for Fall Prevention - Katelyn E. Chen</title>
+<meta name="description" content="Skills: Swift, Python">
 
 
   <meta name="author" content="Katelyn E. Chen">
@@ -22,15 +22,15 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Katelyn E. Chen">
-<meta property="og:title" content="Idiophonic Plaque">
-<meta property="og:url" content="http://localhost:4000/projects/06-idiophone/">
+<meta property="og:title" content="Trajectory and Sway Prediction for Fall Prevention">
+<meta property="og:url" content="http://localhost:4000/research/03-salisbury/">
 
 
-  <meta property="og:description" content="Skills: Machining (Lathe, Mill), Sand Casting, Sheet Metal Forming, Surface Finishing, Woodworking">
+  <meta property="og:description" content="Skills: Swift, Python">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/idiophone/final.jpg">
+  <meta property="og:image" content="http://localhost:4000/assets/images/armlab/smartbelt.pdf">
 
 
 
@@ -47,7 +47,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/projects/06-idiophone/">
+<link rel="canonical" href="http://localhost:4000/research/03-salisbury/">
 
 
 
@@ -160,7 +160,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/assets/images/idiophone/final.jpg" alt="Idiophonic Plaque" class="page__hero-image">
+    <img src="/assets/images/armlab/smartbelt.pdf" alt="Trajectory and Sway Prediction for Fall Prevention" class="page__hero-image">
   
   
 </div>
@@ -178,20 +178,26 @@
   
     
       
-      <h3>Role</h3>
-      <p>Individual project</p>
+      <h3>Position</h3>
+      <p>Stanford ARMLab Researcher</p>
+
+      
+    
+      
+      <h3>Collaborators</h3>
+      <p>Ken Wang (PhD), Monroe Kennedy III (PI)</p>
 
       
     
       
       <h3>Responsibilities</h3>
-      <p>Manufacture the product from start to finish</p>
+      <p>Develop an iOS application for data collection and depth panorama generation</p>
 
       
     
       
       <h3>Skills</h3>
-      <p>Machining (Lathe, Mill), Sand Casting, Sheet Metal Forming, Surface Finishing, Woodworking</p>
+      <p>Swift, Python</p>
 
       
     
@@ -202,8 +208,8 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Idiophonic Plaque">
-    <meta itemprop="description" content="Skills: Machining (Lathe, Mill), Sand Casting, Sheet Metal Forming, Surface Finishing, Woodworking">
+    <meta itemprop="headline" content="Trajectory and Sway Prediction for Fall Prevention">
+    <meta itemprop="description" content="Skills: Swift, Python">
     <meta itemprop="datePublished" content="2025-12-05T18:14:42-08:00">
     
 
@@ -211,7 +217,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/projects/06-idiophone/" class="u-url" itemprop="url">Idiophonic Plaque
+            <a href="http://localhost:4000/research/03-salisbury/" class="u-url" itemprop="url">Trajectory and Sway Prediction for Fall Prevention
 </a>
           </h1>
           
@@ -222,120 +228,94 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>An idiophone is a musical instrument that produces sound when struck. The idiophonic plaque includes a bronze bell, brass tone bar, stainless steel chime, and delrin striker attached to a wood base.
-Through this project, I familiarized myself with common manufacturing/fabrication processes and with reading 2D engineering drawings.</p>
-
-<video controls="" width="600">
-  <source src="/assets/images/idiophone/final.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<h2 id="sand-casting">Sand Casting</h2>
+        <p><strong>Challenge</strong></p>
 <ul>
-  <li>Using a loose pattern, I sand cast the bell in bronze. I learned about draft angles, designing the gate and runner, and creating the sprue and pouring cup.</li>
+  <li>Conducted research with the <a href="https://arm.stanford.edu">Stanford Assistive Robotics and Manipulation Laboratory (ARMLab)</a> to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time.
+    <ul>
+      <li>Intended users are older individuals who are at higher risk of instability and falls.</li>
+    </ul>
+  </li>
+  <li>Prior data collection setup involved multiple pieces of hardware. I aimed to simplify the setup by reducing the number of parts while maintaining performance.
+<!-- ![ARMLab Group Photo](/assets/images/armlab/armlab-group-2.jpg){:width="800"} --></li>
+</ul>
+
+<p><strong>Action</strong>
+<!-- * Selected to participate in the Department of Mechanical Engineering 2023 Stanford Undergraduate Research Institute (SURI) as 1 of 30 undegraduate students for a 10 week research internship --></p>
+<ul>
+  <li>Developed an iOS application in Swift (programming language) that leverages the LiDAR sensor in iPhones to collect environment data and generate a depth panorama
+    <ul>
+      <li>The depth panorama is used as input to a VAE + LSTM trajectory and sway prediction model</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Result</strong></p>
+<ul>
+  <li>Application demo (below) shows the generation of the depth panorama in real time as a person walks down a hallway. The FPS on the screen needs to be multiplied by the number of GPUs (6 for the iPhone 12 Pro that the testing was conducted on)</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cSA3S8FV828?si=2mrDZ6AVUrMztgIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<ul>
+  <li>PyTorch prediction model has been converted to CoreML and will eventually be deployed on the iPhone for an integrated data collection and prediction process</li>
+</ul>
+
+<p><strong>Research Presentations</strong></p>
+<ul>
+  <li><strong>SURI Poster Session, August 2023</strong>: Presented summer research progress to Stanford mechanical engineering labs and the SURI cohort</li>
 </ul>
 
 <figure class="third ">
   
     
-      <a href="/assets/images/idiophone/sandcast-1.jpg">
-          <img src="/assets/images/idiophone/sandcast-1-th.jpg" alt="" />
+      <a href="/assets/images/armlab/suri-1.jpg">
+          <img src="/assets/images/armlab/suri-1-th.jpg" alt="" />
       </a>
     
   
     
-      <a href="/assets/images/idiophone/sandcast-2.jpg">
-          <img src="/assets/images/idiophone//sandcast-2-th.jpg" alt="" />
+      <a href="/assets/images/armlab/suri-2.jpg">
+          <img src="/assets/images/armlab/suri-2-th.jpg" alt="" />
       </a>
     
   
     
-      <a href="/assets/images/idiophone/sandcast-3.jpg">
-          <img src="/assets/images/idiophone//sandcast-3-th.jpg" alt="" />
-      </a>
-    
-  
-  
-</figure>
-
-<h2 id="machining-mill">Machining (Mill)</h2>
-<ul>
-  <li>I machined the brass tone bar on the mill, which included features such as a drilled through hole and a shell milled step.</li>
-  <li>I turned the stainless steel chime and delrin striker on the lathe, which included features such as grooves and chamfered edges.</li>
-</ul>
-
-<figure class="half ">
-  
-    
-      <a href="/assets/images/idiophone/machine-1.jpg">
-          <img src="/assets/images/idiophone/machine-1-th.jpg" alt="" />
-      </a>
-    
-  
-    
-      <a href="/assets/images/idiophone/machine-2.jpg">
-          <img src="/assets/images/idiophone/machine-2-th.jpg" alt="" />
+      <a href="/assets/images/armlab/suri-3.jpg">
+          <img src="/assets/images/armlab/suri-3-th.jpg" alt="" />
       </a>
     
   
   
 </figure>
 
-<h2 id="woodworking">Woodworking</h2>
 <ul>
-  <li>The wooden base was created using various machinery (miter saw, table saw, etc) then sealed with shellac.</li>
-</ul>
-
-<figure class="half ">
-  
-    
-      <a href="/assets/images/idiophone/wood-1.jpg">
-          <img src="/assets/images/idiophone/wood-1-th.jpg" alt="" />
-      </a>
-    
-  
-    
-      <a href="/assets/images/idiophone/wood-2.jpg">
-          <img src="/assets/images/idiophone/wood-2-th.jpg" alt="" />
-      </a>
-    
-  
-  
-</figure>
-
-<h2 id="sheet-metal-forming">Sheet Metal Forming</h2>
-<ul>
-  <li>The tensioner at the back of the plaque and the striker holder are formed out of sheet metal with tools such as the press brake, shear, and corner notcher.</li>
-</ul>
-
-<h2 id="finishing">Finishing</h2>
-<ul>
-  <li>The pieces were finished with a combination of sanding, polishing, and bead blasting. The final product was assembled with the incorporation of hardware.</li>
+  <li><strong>Innovation and Discovery Expo, October 2023</strong>: Presented to biosciences, engineering, and medical researchers as part of the ARMLab demonstrational booth. The expo was hosted by Stanford Bio-X and Wu Tsai Human Performance Alliance.</li>
 </ul>
 
 <figure class="third ">
   
     
-      <a href="/assets/images/idiophone/finish-1.jpg">
-          <img src="/assets/images/idiophone/finish-1-th.jpg" alt="" />
+      <a href="/assets/images/armlab/wutsai-1.jpg">
+          <img src="/assets/images/armlab/wutsai-1-th.jpg" alt="" />
       </a>
     
   
     
-      <a href="/assets/images/idiophone/finish-2.jpg">
-          <img src="/assets/images/idiophone/finish-2-th.jpg" alt="" />
+      <a href="/assets/images/armlab/wutsai-2.jpg">
+          <img src="/assets/images/armlab/wutsai-2-th.jpg" alt="" />
       </a>
     
   
     
-      <a href="/assets/images/idiophone/finish-3.jpg">
-          <img src="/assets/images/idiophone/finish-3-th.jpg" alt="" />
+      <a href="/assets/images/armlab/wutsai-3.jpg">
+          <img src="/assets/images/armlab/wutsai-3-th.jpg" alt="" />
       </a>
     
   
   
 </figure>
 
+<p><img src="/assets/images/armlab/SURI_Poster.pdf" alt="Research Poster" width="800" /></p>
 
         
       </section>
@@ -356,11 +336,11 @@ Through this project, I familiarized myself with common manufacturing/fabricatio
       
   <nav class="pagination">
     
-      <a href="/projects/05-appliedmaterialcar/" class="pagination--pager" title="Self-Propelling Carriage: Applied Materials Exploration
+      <a href="/research/02-armlab-manip/" class="pagination--pager" title="Trajectory and Sway Prediction for Fall Prevention
 ">Previous</a>
     
     
-      <a href="/projects/07-shelf/" class="pagination--pager" title="Shape Optimized Hanging Bedside Shelf
+      <a href="/research/04-reframe/" class="pagination--pager" title="Reframe: Life Transitions Design Kit
 ">Next</a>
     
   </nav>
