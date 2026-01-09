@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Trajectory and Sway Prediction for Fall Prevention",
+        "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
+        "tags": [],
+        "url": "/projects/01-armlab-app/",
+        "teaser": "/assets/images/armlab/smartbelt.pdf"
+      },{
         "title": "Wheelchair Lift for Volkswagen ID. Buzz",
         "excerpt":"Challenge Millions of individuals with mobility impairments face barriers to independent vehicle access Existing solutions (ramps, aftermarket lifts) are costly, bulky, and hard to integrate into production vehicles The Volkswagen ID Buzz has a battery pack in the car floor, limiting available integration space Goal: Design a factory-integrated, ADA-compliant wheelchair...","categories": [],
         "tags": [],
@@ -76,12 +82,6 @@ var store = [{
         "tags": [],
         "url": "/projects/11-bookbinding/",
         "teaser": "/assets/images/bookbinding/acc-book2.jpg"
-      },{
-        "title": "Trajectory and Sway Prediction for Fall Prevention",
-        "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
-        "tags": [],
-        "url": "/research/01-armlab-app/",
-        "teaser": "/assets/images/armlab/smartbelt.pdf"
       },{
         "title": "Trajectory and Sway Prediction for Fall Prevention",
         "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
