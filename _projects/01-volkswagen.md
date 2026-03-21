@@ -17,6 +17,19 @@ sidebar:
   - title: "Skills"
     text: "CAD, FEA, prototyping (3D printing/laser cutting), Arduino control, user-centered design"
 ---
+## Overview
+Designed and built half-scale ADA compliant wheelchair lift for the Volkswagen ID. Buzz 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mAQwhOxIPkU?si=EVCM_3Amfb3IbHvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- <p align="center">
+  <video width="600" controls>
+    <source src="/assets/images/volkswagen/170-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video><br>
+  <em style="font-size:0.9em;">Demonstration of a person using the wheelchair lift</em>
+</p> -->
+
 ## Challenge
 - Millions of individuals with mobility impairments face barriers to independent vehicle access
 - Existing solutions (ramps, aftermarket lifts) are **costly, bulky, and hard to integrate** into production vehicles
@@ -58,14 +71,6 @@ sidebar:
 
 ## Result
 - Built **fully operational automated lift** supporting **300+ lbs** and adhering completely to strict ADA requirements at 50% scale
-<p align="center">
-  <video width="600" controls>
-    <source src="/assets/images/volkswagen/170-video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video><br>
-  <em style="font-size:0.9em;">Demonstration of a person using the wheelchair lift</em>
-</p>
-
 - Demonstrated feasibility of a **factory-integrated and modular accessibility solution** for the Volkswagen ID. Buzz.  
 - Future Work:  
   - Reinforce custom parts with higher-grade materials
