@@ -7,8 +7,6 @@ excerpt: ""
 ---
 
 
-Hi! I'm Katelyn and I study **Mechanical Engineering (B.S. + M.S.) at Stanford University**. I specialized in Dynamic Systems & Controls in my undergraduate degree, and I'm currently completing my master's with a depth in **Mechatronics and Robotics**.  
+Hi! I'm Katelyn and I'm a PhD student in Mechanical Engineering at Carnegie Mellon University. I work with Professor Aaron Johnson in the Robomechanics Lab on bio-inspired robotic control and design. 
 
-My research interest is in ways to improve robotic manipulation through design and control. I am currently a researcher in the **Stanford Assistive Robotics and Manipulation Lab (ARMLab)** on grasping teleoperation and imitation. I am also conducting research in the **Salisbury Robotics Lab**, in collaboration with the Stanford Neuroscience Health Center, to develop robotic surgical instruments to aid in repair of cerebral aneurysms. 
-
-In my undergrad, I established the **ASME Stanford Student Section** and served as President for two years. I was also the Co-President of **Engineers for a Sustainable World**, during which I organized a yearly two-quarter course sequence to carry out engineering projects with international community organizations. 
+I previously graduated from Stanford University with my Master's and Bachelor's degrees in Mechanical Engineering, during which I worked with Professor Monroe Kennedy III on dexterous manipulation and with Professor Ken Salisbury on robotic surgical instruments.
