@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "Shape Optimized Hanging Bedside Shelf"
-excerpt: "Skills: 3D Printing (FDM), Algorithmic Design, CAD, Finite Element Analysis (FEA)"
+excerpt: "Skills: 3D Printing, CAD, FEA"
 header:
   image: /assets/images/shelf/shelf-title.png
   teaser: assets/images/shelf/shelf-title.png
@@ -14,7 +14,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Design, prototype, conduct simulations, and print the final product"
   - title: "Skills"
-    text: "3D Printing (FDM), Algorithmic Design, CAD, Finite Element Analysis (FEA)"
+    text: "3D Printing, CAD, FEA"
 # gallery-machine:
 #   - url: /assets/images/shelf/cad-before.png # 1600 x 1068
 #     image_path: assets/images/shelf/machine-1-th.jpg # 600 x 400

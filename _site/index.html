@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>About Me - Katelyn E. Chen</title>
-<meta name="description" content="Katelyn E. Chen is a Ph.D. Student in Mechanical Engineering at Carnegie Mellon University. She is interested in bio-inspired robotics and assistive technology.">
+<!-- begin _includes/seo.html --><title>Home - Katelyn E. Chen</title>
+<meta name="description" content="Katelyn E. Chen — Ph.D. student in Mechanical Engineering at Carnegie Mellon University, working on bio-inspired robotics.">
 
 
   <meta name="author" content="Katelyn E. Chen">
@@ -20,14 +20,11 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Katelyn E. Chen">
-<meta property="og:title" content="About Me">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Home">
+<meta property="og:url" content="http://localhost:4001/">
 
 
-  <meta property="og:description" content="Katelyn E. Chen is a Ph.D. Student in Mechanical Engineering at Carnegie Mellon University. She is interested in bio-inspired robotics and assistive technology.">
-
-
-
+  <meta property="og:description" content="Katelyn E. Chen — Ph.D. student in Mechanical Engineering at Carnegie Mellon University, working on bio-inspired robotics.">
 
 
 
@@ -36,12 +33,15 @@
 
 
 
-  
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/">
+
+<link rel="canonical" href="http://localhost:4001/">
 
 
 
@@ -52,7 +52,7 @@
     
       "@type": "Person",
       "name": "Katelyn E. Chen",
-      "url": "http://localhost:4000/"
+      "url": "http://localhost:4001/"
     
   }
 </script>
@@ -88,6 +88,10 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 <!-- end custom head snippets -->
 
 
@@ -103,7 +107,7 @@
 
   </head>
 
-  <body class="layout--home wide">
+  <body class="layout--default">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -124,9 +128,13 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
               <a href="/projects/">Projects</a>
             </li><li class="masthead__menu-item">
-              <a href="/KatelynChenResume.pdf">Resume</a>
+              <a href="/resume/">Resume</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -141,149 +149,60 @@
 
 
     <div class="initial-content">
-      
-
-
-
-<div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
-
-  
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/headshot-2.jpg" alt="Katelyn E. Chen" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
-
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Katelyn E. Chen</a>
-    </h3>
-    
-      <div class="author__bio p-note" itemprop="description">
-        <p>Ph.D. Student in Mechanical Engineering at Carnegie Mellon University</p>
-
+      <div class="kc-wrap">
+  <section class="kc-hero">
+    <div>
+      <p class="kc-hero__eyebrow">Mechanical Engineer · Roboticist · PhD Student</p>
+      <h1 class="kc-hero__name">Katelyn E. Chen</h1>
+      <p class="kc-hero__lede">
+        I'm a Ph.D. student in Mechanical Engineering at Carnegie Mellon University working on bio-inspired robotic control and design. I am advised by Professor Aaron Johnson in the Robomechanics Lab.
+      </p>
+      <div class="kc-links">
+        <!-- <a class="kc-btn kc-btn--solid" href="/research/">Research</a> -->
+        <a class="kc-btn" href="/about/">About</a>
+        <a class="kc-btn" href="/research/">Research</a>
+        <!-- <a class="kc-btn" href="/projects/">Projects</a> -->
+        <a class="kc-btn" href="/resume/">Resume</a>
       </div>
-    
-  </div>
+      <div class="kc-social">
+        <a class="kc-icon-btn" href="mailto:kechen2@andrew.cmu.edu" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+        <a class="kc-icon-btn" href="https://www.linkedin.com/in/katelynchen" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="kc-hero__photo">
+      <img src="/assets/images/headshot-2.jpg" alt="Portrait of Katelyn Chen" />
+    </div>
+  </section>
 
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Pittsburgh, PA</span>
-        </li>
-      
+  <!-- <p class="kc-section-label">Research Interests</p>
+  <div class="kc-interests">
+    <div class="kc-card">
+      <span class="kc-card__num">i.</span>
+      <h3>Bio-inspired Robotics</h3>
+      <p>Legged and compliant systems whose mechanics and control draw on biological principles.</p>
+    </div>
+    <div class="kc-card">
+      <span class="kc-card__num">ii.</span>
+      <h3>Dexterous Manipulation</h3>
+      <p>Cable-driven hands, wrists, and actuators that move with precision and robustness.</p>
+    </div>
+    <div class="kc-card">
+      <span class="kc-card__num">iii.</span>
+      <h3>Assistive Technology</h3>
+      <p>Human-centered robots and devices that expand independence and accessibility.</p>
+    </div>
+  </div> -->
 
-      
-        
-          
-            <li><a href="https://www.linkedin.com/in/katelynchen" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
-          
-        
-      
-
-      
-
-      
-        <li>
-          <a href="mailto:kechen2@andrew.cmu.edu" rel="me" class="u-email">
-            <meta itemprop="email" content="kechen2@andrew.cmu.edu" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
+  <!-- <p class="kc-section-label">Recently</p>
+  <ul class="kc-news">
+    <li><time>Fall 2026</time><span>Began my Ph.D. at Carnegie Mellon in the Robomechanics Lab.</span></li>
+    <li><time>Jun 2026</time><span>Completed my M.S. and B.S. in Mechanical Engineering at Stanford.</span></li>
+    <li><time>2025</time><span>Robotics Process Engineering Co-op at Amazon Robotics, Boston.</span></li>
+    <li><time>2024</time><span>Robotics R&amp;D Intern at the German Aerospace Center (DLR).</span></li>
+  </ul>
+</div> -->
 </div>
 
-  
-  </div>
-
-
-
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">About Me</h1>
-    
-    <p>Hi! I’m Katelyn and I’m a PhD student in Mechanical Engineering at Carnegie Mellon University. I work with Professor Aaron Johnson in the Robomechanics Lab on bio-inspired robotic control and design.</p>
-
-<p>I previously graduated from Stanford University with my Master’s and Bachelor’s degrees in Mechanical Engineering, during which I worked with Professor Monroe Kennedy III on dexterous manipulation and with Professor Ken Salisbury on robotic surgical instruments.</p>
-
-
-<!-- <h3 class="archive__subtitle">Recent posts</h3> -->
-
-
-
-
-<div class="entries-list">
-  
-</div>
-
-
-
-
-  </div>
-</div>
     </div>
 
     

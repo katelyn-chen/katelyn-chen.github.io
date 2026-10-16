@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "Obstacle Course Navigation Robot"
-excerpt: "Skills: 3D Printing (FDM), CAD, Circuit Design, Coding, Laser Cutting"
+excerpt: "Skills: 3D Printing, CAD, Electrical Design, C, Laser Cutting"
 header:
   image: /assets/images/gackbot-header.png
   teaser: assets/images/gackbot-header.png
@@ -14,7 +14,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Mechanical design, electrical design, code"
   - title: "Skills"
-    text: "3D Printing (FDM), CAD, Circuit Design, Coding, Laser Cutting"
+    text: "3D Printing, CAD, Electrical Design, C, Laser Cutting"
 ---
 
 ## [View project documentation here!](https://sites.google.com/stanford.edu/me-210-final-project/home){:target="_blank"}

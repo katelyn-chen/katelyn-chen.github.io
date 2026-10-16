@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "Taiwanese Sky Lantern"
-excerpt: "Skills: 3D Printing (FDM), CAD, Machining (Mill), Sand Casting, Welding, Woodworking"
+excerpt: "Skills: 3D Printing, CAD, Machining, Sand Casting, Welding, Woodworking"
 header:
   image: /assets/images/sky-lantern/skylantern-title2.png
   teaser: assets/images/sky-lantern/skylantern-title2.png
@@ -14,7 +14,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Design, prototype, and manufacture the final product"
   - title: "Skills"
-    text: "3D Printing (FDM), CAD, Machining (Mill), Sand Casting, Welding, Woodworking"
+    text: "3D Printing, CAD, Machining, Sand Casting, Welding, Woodworking"
 gallery:
   - url: /assets/images/sky-lantern/sandcasting-1.jpg # 1600 x 1068
     image_path: assets/images/sky-lantern/sandcasting-1-th.jpg # 600 x 400

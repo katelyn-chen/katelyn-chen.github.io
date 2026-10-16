@@ -9,7 +9,7 @@ var store = [{
         "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
         "tags": [],
         "url": "/projects/02-armlab-app/",
-        "teaser": "/assets/images/armlab/smartbelt.pdf"
+        "teaser": "/assets/images/armlab/smartbelt.png"
       },{
         "title": "PIC Destroyers: Navigation and Collection Robot",
         "excerpt":"The robot is designed for ME218B, the second part of Stanford’s Smart Product Design series. It uses a combination of sensors and SPI communication with two PIC32s to orient itself in the game board, navigate to the ball dispenser, and collect balls. Each component is designed from scratch, with details...","categories": [],
@@ -45,7 +45,7 @@ var store = [{
         "excerpt":"Challenge Development of a physical toolkit to apply the Stanford Life Design process to the transition from education to career Aiming to increase the accessibility and reach of the life design process beyond Stanford Pitched product to the Stanford Life Design Lab and was invited to join as an undergraduate...","categories": [],
         "tags": [],
         "url": "/projects/06-reframe/",
-        "teaser": "/assets/images/reframe/reframe-front.pdf"
+        "teaser": "/assets/images/reframe/reframe-front.png"
       },{
         "title": "Taiwanese Sky Lantern",
         "excerpt":"I designed and created from scratch a Taiwanese sky lantern inspired night light. I learned and executed machine shop skills such as machining, woodworking, welding, and sandcasting. Sand Casting I used Fusion 360 to design my pattern and iterated to compromise between draft angle, functionality, and aesthetics in CAD. The...","categories": [],
@@ -81,17 +81,17 @@ var store = [{
         "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
         "tags": [],
         "url": "/research/02-armlab-manip/",
-        "teaser": "/assets/images/armlab/smartbelt.pdf"
+        "teaser": "/assets/images/armlab/smartbelt.png"
       },{
         "title": "Trajectory and Sway Prediction for Fall Prevention",
         "excerpt":"Challenge Conducted research with the Stanford Assistive Robotics and Manipulation Laboratory (ARMLab) to develop a wearable sensor that can predict a person’s path and stability, then alert them of possibile falls in real time. Intended users are older individuals who are at higher risk of instability and falls. Prior data...","categories": [],
         "tags": [],
         "url": "/research/03-salisbury/",
-        "teaser": "/assets/images/armlab/smartbelt.pdf"
+        "teaser": "/assets/images/armlab/smartbelt.png"
       },{
         "title": "Reframe: Life Transitions Design Kit",
         "excerpt":"Challenge Development of a physical toolkit to apply the Stanford Life Design process to the transition from education to career Aiming to increase the accessibility and reach of the life design process beyond Stanford Pitched product to the Stanford Life Design Lab and was invited to join as an undergraduate...","categories": [],
         "tags": [],
         "url": "/research/04-reframe/",
-        "teaser": "/assets/images/reframe/reframe-front.pdf"
+        "teaser": "/assets/images/reframe/reframe-front.png"
       }]

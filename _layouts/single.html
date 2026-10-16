@@ -2,6 +2,16 @@
 layout: default
 ---
 
+{% if page.collection == "projects" or page.collection == "research" or page.sidebar %}
+  <div class="kc-back-bar">
+    {% if page.research_only or page.collection == "research" %}
+      <a class="kc-btn kc-btn--sm" href="{{ '/research/' | relative_url }}">← Back to Research</a>
+    {% else %}
+      <a class="kc-btn kc-btn--sm" href="{{ '/projects/' | relative_url }}">← Back to Projects</a>
+    {% endif %}
+  </div>
+{% endif %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -18,8 +28,10 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
-  {% include sidebar.html %}
+<div id="main" role="main" class="kc-single{% if page.sidebar %} kc-single--project{% endif %}">
+  {% unless page.sidebar %}
+    {% include sidebar.html %}
+  {% endunless %}
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -30,12 +42,40 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
-          </h1>{% endif %}
+          {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% include page__meta.html %}
         </header>
       {% endunless %}
+
+      {% if page.sidebar %}
+        <div class="kc-project-meta">
+          {% for s in page.sidebar %}
+            {% if s.title or s.text or s.image %}
+              <div class="kc-project-meta__item{% if s.title == 'Skills' or s.title == 'Responsibilities' %} kc-project-meta__item--wide{% endif %}">
+                {% if s.image %}
+                  <img src="{{ s.image | relative_url }}" alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+                {% endif %}
+                {% if s.title %}<h3 class="kc-project-meta__label">{{ s.title }}</h3>{% endif %}
+                {% if s.text %}
+                  {% if s.title == "Skills" %}
+                    {% assign skills_list = s.text | replace: "Skills: ", "" | split: "," %}
+                    <ul class="kc-tags kc-project-meta__tags">
+                      {% for skill in skills_list %}
+                        {% assign clean_skill = skill | strip %}
+                        {% if clean_skill != "" %}
+                          <li>{{ clean_skill }}</li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    <div class="kc-project-meta__val">{{ s.text | markdownify }}</div>
+                  {% endif %}
+                {% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
 
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
@@ -60,7 +100,7 @@ layout: default
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
-      {% include post_pagination.html %}
+      <!-- {% include post_pagination.html %} -->
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}

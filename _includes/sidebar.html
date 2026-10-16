@@ -8,7 +8,21 @@
              alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
       {% endif %}
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.text %}
+        {% if s.title == "Skills" %}
+          {% assign skills_list = s.text | replace: "Skills: ", "" | split: "," %}
+          <ul class="kc-tags kc-sidebar__tags">
+            {% for skill in skills_list %}
+              {% assign clean_skill = skill | strip %}
+              {% if clean_skill != "" %}
+                <li>{{ clean_skill }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% else %}
+          {{ s.text | markdownify }}
+        {% endif %}
+      {% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}

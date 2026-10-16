@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "Wheelchair Lift for Volkswagen ID. Buzz"
-excerpt: "Skills: CAD, FEA, prototyping (3D printing/laser cutting), Arduino control, user-centered design"
+excerpt: "Skills: CAD, FEA, Woodworking, Laser Cutting, 3D Printing"
 header:
   image: /assets/images/volkswagen/170-solution.png
   teaser: assets/images/volkswagen/170-solution.png
@@ -15,7 +15,7 @@ sidebar:
   - title: "Responsibilities"
     text: "User research, hardware design, CAD & FEA analysis, prototyping, mechatronics design and electrical integration"   
   - title: "Skills"
-    text: "CAD, FEA, prototyping (3D printing/laser cutting), Arduino control, user-centered design"
+    text: "CAD, FEA, Woodworking, Laser Cutting, 3D Printing"
 ---
 ## Overview
 Designed and built half-scale ADA compliant wheelchair lift for the Volkswagen ID. Buzz 

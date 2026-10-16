@@ -3,9 +3,10 @@ layout: single
 classes: wide
 title: "Reframe: Life Transitions Design Kit"
 excerpt: "Skills: 3D Printing (FDM), CAD, Laser Cutting, User Research"
+research_only: true
 header:
-  image: /assets/images/reframe/reframe.pdf
-  teaser: assets/images/reframe/reframe-front.pdf
+  image: /assets/images/reframe/reframe.png
+  teaser: assets/images/reframe/reframe-front.png
 
   # image: /assets/images/reframe/reframe-cover.jpeg
   # teaser: assets/images/reframe/reframe-cover.jpeg

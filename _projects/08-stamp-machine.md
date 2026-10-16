@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "INK: The Universal Stamping Machine"
-excerpt: "Skills: 3D Printing (FDM), CAD, Laser Cutting"
+excerpt: "Skills: 3D Printing, CAD, Laser Cutting"
 header:
   image: /assets/images/stamp/ink.png
   teaser: assets/images/stamp/ink.png
@@ -14,7 +14,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Design, prototype, and create the final product."
   - title: "Skills"
-    text: "3D Printing (FDM), CAD, Laser Cutting"
+    text: "3D Printing, CAD, Laser Cutting"
 
 gallery-cad:
   - url: /assets/images/stamp/assembly-front.png # 1600 x 1068

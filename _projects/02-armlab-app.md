@@ -3,9 +3,10 @@ layout: single
 classes: wide
 title: "Trajectory and Sway Prediction for Fall Prevention"
 excerpt: "Skills: Swift, Python"
+research_only: true
 header:
-  image: /assets/images/armlab/smartbelt.pdf
-  teaser: assets/images/armlab/smartbelt.pdf
+  image: /assets/images/armlab/smartbelt.png
+  teaser: assets/images/armlab/smartbelt.png
 sidebar:
   - title: "Position"
     # image: http://placehold.it/350x250
